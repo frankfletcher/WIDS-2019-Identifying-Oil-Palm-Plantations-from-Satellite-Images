@@ -287,12 +287,18 @@ class WIDTorch:
         plt.figure(figsize=(12, 6))
         plt.plot(self.train_losses, label="Train Loss")
         plt.plot(self.val_losses, label="Validation Loss")
+        plt.xlabel("Epoch")
+        plt.ylabel("Loss")
+        plt.title("Training and Validation Loss")
         plt.legend()
         plt.show()
 
     def plot_scores(self):
         plt.figure(figsize=(12, 6))
         plt.plot(self.val_scores, label="Validation ROC AUC")
+        plt.xlabel("Epoch")
+        plt.ylabel("ROC AUC")
+        plt.title("Validation ROC AUC")
         plt.legend()
         plt.show()
 
