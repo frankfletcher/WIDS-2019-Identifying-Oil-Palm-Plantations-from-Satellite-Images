@@ -1,0 +1,8 @@
+data/__MACOSX
+data/leaderboard_test_data
+data/leaderboard_holdout_data
+data/train_images
+models/**
+**.zip
+__pycache__
+test_submission_images.ipynb
